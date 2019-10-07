@@ -20,3 +20,8 @@ function logWhisper(string){
   console.log('hello' + string.toLowerCase);
 }
 
+function sayHiToGrandma(string){
+  if (string === "I love you, Grandma."){
+    return console.log("I love you, too")
+  }
+}
